@@ -1,0 +1,19 @@
+O que faço ao acordar:
+
+1-despertador toca
+2-abro os olhos
+3- faço minhas orações
+4- me levanto
+5- calço os chinelos
+7- há alguem no banheiro?
+  1- vou tomar água
+  2- vou preparar meu café
+  3 - a pessoa já saiu do banheiro ?
+     1 - se sim eu entro no banhiro
+     2 - lavo a minha cara
+  4 - se não espero até sair
+8 - se não entro no banheiro
+9 - lavo a minha cara
+10 - saio do banheiro
+11- tomo a minha água
+12 - vou preparar o meu café
