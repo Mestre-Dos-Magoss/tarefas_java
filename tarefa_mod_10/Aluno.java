@@ -6,6 +6,7 @@ public class Aluno {
     public Aluno (String nome){
         this.nome = nome;
     }
+
     public String getNome() {
         return nome;
     }
@@ -14,12 +15,13 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public void verificaAlunoFoiAprovado(double aprova){
-        if(aprova >= 7) {
-            System.out.println("O aluno " + getNome() + " foi aprovado, parabéns!\nMédia: "+aprova);
-        }else{
-            System.out.println("Aluno reprovado, você deve estudar mais na próxima\nMédia: "+aprova);
+    public void verificaAlunoFoiAprovado(double media){
+        if(media >= 7) {
+            System.out.println("O aluno " + getNome() + " foi aprovado, parabéns!\nMédia: " + media);
+        } else if (media >= 6) {
+            System.out.println("O aluno " + getNome() + " está de recuperação.\nMédia: " + media);
+        } else {
+            System.out.println("Aluno reprovado, você deve estudar mais na próxima.\nMédia: " + media);
         }
     }
-
 }

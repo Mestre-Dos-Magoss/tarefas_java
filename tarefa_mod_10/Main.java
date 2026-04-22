@@ -24,7 +24,7 @@ public class Main {
             media+= nota;
             contador = contador+1;
         }
-        media = media/4;
-        return media;
+        return media / 4;
+        
         }
     }
