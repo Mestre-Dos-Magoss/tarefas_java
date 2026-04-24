@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://w3.org" xmlns:h="http://jcp.org">
+<h:head><title>Sistema de Carros</title></h:head>
+<h:body>
+	<h:form>
+		<h:messages />
+		<h2>Cadastro de Veículos</h2>
+		<h:panelGrid columns="2">
+			<h:outputLabel value="Modelo:" />
+			<h:inputText value="#{carroBean.carro.modelo}" />
+
+			<h:outputLabel value="Placa:" />
+			<h:inputText value="#{carroBean.carro.placa}" />
+
+			<h:commandButton value="Salvar" action="#{carroBean.salvar}" />
+		</h:panelGrid>
+		<h:outputText value="#{carroBean.mensagem}" />
+	</h:form>
+</h:body>
+</html>
